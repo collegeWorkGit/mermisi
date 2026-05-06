@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>პროფესიული დავალებების პანელი</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container table-container">
+        <h1 class="main-title">ცხრილი</h1>
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>დღე</th>
+              <th>№</th>
+              <th>დრო</th>
+              <th>საგანი</th>
+              <th>მასწავლებელი</th>
+              <th>ოთახი</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="8">ოთხშაბათი</td>
+              <td>1</td>
+              <td>9:30-10:20</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>10:30-11:20</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>11:30-12:20</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>12:35-13:25</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>13:35-14:25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>14:35-15:25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>15:30-16:20</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>16:30-17:20</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td rowspan="8">პარასკევი</td>
+              <td>1</td>
+              <td>9:30-10:20</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>10:30-11:20</td>
+              <td class="active"></td>
+              <td class="active"></td>
+              <td class="active"></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>11:30-12:20</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>12:35-13:25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>13:35-14:25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>14:35-15:25</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>15:30-16:20</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>16:30-17:20</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </header>
+    <div class="container">
+      <h1 class="main-title">პრაქტიკული გამოცდების პანელი</h1>
+      <h2 class="sub-title">ვებგვერდის მართვის სისტემების (CMS) გამოყენება</h2>
+
+      <details>
+        <summary></summary>
+        <div class="content">
+          <h3>📝 დავალების არსი:</h3>
+          <ol>
+            <li>
+              გადმოწერეთ და დააინსტალირეთ ლოკალური სერვერი (მაგალითად: XAMPP).
+            </li>
+            <li>გაუშვით (Start) Apache და MySQL სერვისები.</li>
+            <li>
+              შედით phpMyAdmin-ის პანელში
+              (<code>http://localhost/phpmyadmin/</code>) და შექმენით ახალი
+              მონაცემთა ბაზა (Database) სახელწოდებით:
+              <strong>client_website_db</strong>. უზრუნველყავით კოდირების სწორი
+              ფორმატი (<code>utf8_general_ci</code> ან
+              <code>utf8mb4_unicode_ci</code>).
+            </li>
+            <li>
+              ოფიციალური საიტიდან (wordpress.org) გადმოწერეთ WordPress-ის
+              უახლესი ვერსია.
+            </li>
+            <li>
+              ამოაარქივეთ გადმოწერილი ფაილი და მოათავსეთ ლოკალური სერვერის
+              მთავარ დირექტორიაში (XAMPP-ის შემთხვევაში
+              <code>htdocs</code> ფოლდერში). ფოლდერს დაარქვით
+              <strong>my-project</strong>.
+            </li>
+            <li>
+              გახსენით ბრაუზერი, გადადით მისამართზე
+              <code>http://localhost/my-project/</code> და დაიწყეთ ინსტალაციის
+              პროცესი.
+            </li>
+            <li>
+              დააკავშირეთ CMS მე-3 ნაბიჯში შექმნილ მონაცემთა ბაზასთან (მიუთითეთ
+              ბაზის სახელი <strong>client_website_db</strong>, user:
+              <strong>root</strong>, პაროლი: <em>დატოვეთ ცარიელი</em>).
+            </li>
+            <li>
+              ინსტალაციის ფანჯარაში შეავსეთ შემდეგი მონაცემები:
+              <ul>
+                <li>
+                  <strong>საიტის სათაური (Site Title):</strong> ჩემი პირველი
+                  ვებგვერდი
+                </li>
+                <li>
+                  <strong>მომხმარებლის სახელი (Username):</strong> admin_student
+                  (ან თქვენი სახელი ინგლისურად)
+                </li>
+                <li>
+                  <strong>პაროლი (Password):</strong> ვინაიდან საიტი სატესტოა,
+                  პაროლად შეიყვანეთ ზუსტად იგივე სიტყვა, რაც მომხმარებლის
+                  სახელად მიუთითეთ (დაეთანხმეთ სუსტ პაროლს - Confirm use of weak
+                  password).
+                </li>
+                <li>
+                  <strong>ელ-ფოსტა:</strong> შეიყვანეთ თქვენი აქტიური ელ-ფოსტა.
+                </li>
+                <li>
+                  <strong>საძიებო სისტემის ხილვადობა:</strong> მონიშნეთ (Check)
+                  უჯრა, რათა საძიებო სისტემებმა არ მოახდინონ ამ საიტის
+                  ინდექსირება (რადგან საიტი სატესტოა).
+                </li>
+              </ul>
+            </li>
+            <li>
+              ინსტალაციის დასრულების შემდეგ შედით ადმინ პანელში
+              (<code>wp-admin</code>).
+            </li>
+            <li>
+              გადადით Settings -> General-ში და Timezone (დროის სარტყელი)
+              დააყენეთ <strong>UTC+4</strong> (ან Tbilisi).
+            </li>
+            <li>
+              გადადით Settings -> Permalinks-ში და ბმულების სტრუქტურა
+              გადაიყვანეთ <strong>"Post name"</strong> (პოსტის სახელი) ფორმატზე.
+            </li>
+          </ol>
+
+          <h3>📁 ჩასაბარებელი მტკიცებულებები:</h3>
+          <p>
+            დაზიპული ვორდპრეს საქაღალდე + გამოექსპორტებული MySQL ბაზა - ორივე
+            ერთად მოაქციეთ ფოლდერში, დაარქვით ფოლდერს თქვენი სახელი და გვარი,
+            დაარქივეთ და ატვირთეთ მოწოდებულ დრაივის ლინკზე:<br /><br />
+            <a
+              href="https://drive.google.com/drive/folders/1A-CP4YTndeYmdvPSOI692Osy92Jol0rM?usp=drive_link"
+              target="_blank"
+              >🔗 გამოცდის ჩასაბარებელი ლინკი (Google Drive)</a
+            >
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary></summary>
+        <div class="content">
+          <p>გამოცდის დავალება და დეტალები ჯერ არ არის ხელმისაწვდომი.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary></summary>
+        <div class="content">
+          <p>გამოცდის დავალება და დეტალები ჯერ არ არის ხელმისაწვდომი.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary></summary>
+        <div class="content">
+          <p>გამოცდის დავალება და დეტალები ჯერ არ არის ხელმისაწვდომი.</p>
+        </div>
+      </details>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
