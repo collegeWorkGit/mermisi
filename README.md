@@ -1,6 +1,6 @@
 # mermisi
 
-A Georgian language web application for managing practical exam assignments with date-based access control.
+web application for managing practical exam assignments.
 
 ## Features
 
