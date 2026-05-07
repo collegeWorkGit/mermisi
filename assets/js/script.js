@@ -51,7 +51,7 @@ const unlockDates = [
   },
   {
     time: date2,
-    text: "ს.შ 2 (WordPress ინსტალაცია)",
+    text: "ს.შ 2 კლიენტის მხარის თარგის დაინსტალირება და კონფიგურაცია",
     date: "27.05.2026",
     duration: "1 სთ",
   },
