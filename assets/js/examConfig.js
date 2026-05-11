@@ -7,25 +7,31 @@ export const moduleConfigs = {
     exams: [
       {
         time: new Date(2026, 4, 14).getTime(),
-        text: "ს.შ 1,3 ცვლადები, მასივები და ობიექტები",
+        text: "ს.შ 1 1.	მარტივი (წრფივი) ამოცანის გადაწყვეტა JavaScript ენის ძირითადი ელემენტების გამოყენებით",
         date: "14.05.2026",
         duration: "4 სთ",
       },
       {
         time: new Date(2026, 4, 14).getTime(),
-        text: "ს.შ 2,4 ფორმები, თარიღები და ტაიმერები",
+        text: "ს.შ 2 2.	ამოცანის გადაჭრა ძირითადი კონსტრუქციების გამოყენებით",
         date: "14.05.2026",
         duration: "4 სთ",
       },
       {
         time: new Date(2026, 4, 14).getTime(),
-        text: "ს.შ 5 (Shopping List - DOM მანიპულაცია)",
+        text: "ს.შ 3 3.	მასივებთან მუშაობა",
         date: "14.05.2026",
         duration: "3 სთ",
       },
       {
         time: new Date(2026, 4, 14).getTime(),
-        text: "ს.შ 6 API Fetch და CRUD (Delete)",
+        text: "ს.შ 4 4.	ბრაუზერთან სამუშაო (უტილიტარული) ფუნქციების გამოყენება",
+        date: "14.05.2026",
+        duration: "2 სთ",
+      },
+      {
+        time: new Date(2026, 4, 14).getTime(),
+        text: "ს.შ 5 5.	JavaScript-ის ბიბლიოთეკების ინტეგრაცია ვებგვერდთან",
         date: "14.05.2026",
         duration: "2 სთ",
       },
