@@ -145,7 +145,24 @@ export const moduleConfigs = {
         time: new Date(2026, 4, 27).getTime(),
         text: "ს.შ 2 კლიენტის მხარის თარგის დაინსტალირება და კონფიგურაცია",
         date: "27.05.2026",
-        duration: "1 სთ",
+        duration: "3 სთ",
+        content: `
+        <h3>📝 დავალების არსი:</h3>
+        <ol>
+          <li>ვორდპრესის აქტიურ თემაში (თუ არ გაქვთ, შექმენით ახალი საქაღალდე <code>wp-content/themes/my-custom-theme</code>) შექმენით ბაზისური ფაილები: <code>index.php</code> და <code>style.css</code>.</li>
+          <li>გამოყავით საიტის სტრუქტურა: შექმენით <code>header.php</code> და <code>footer.php</code>. გადაიტანეთ შესაბამისი HTML ტეგები        (<code>&lt;head&gt;</code>, ნავიგაცია, ფუტერი) ამ ფაილებში და გამოიძახეთ ისინი <code>index.php</code>-ში.</li>
+          <li>შექმენით <code>functions.php</code> ფაილი და დაუკავშირეთ ძირითადი სტილები (<code>style.css</code>) და სკრიპტები WordPress-ის        სტანდარტით, <code>wp_enqueue_scripts</code> ჰუკზე.</li>
+          <li><code>functions.php</code>-ში დაარეგისტრირეთ დინამიური მენიუს მხარდაჭერა <code>register_nav_menu()</code> ფუნქციით. ვორდპრესის        ადმინისტრირების პანელიდან (Appearance -> Menus) შექმენით მენიუ და მიაბით შესაბამის ლოკაციას.</li>
+          <li>გამოიტანეთ დარეგისტრირებული მენიუ <code>header.php</code>-ში (ან სასურველ ადგილას) <code>wp_nav_menu()</code> ფუნქციის        მეშვეობით.</li>
+          <li>შექმენით შაბლონური ფაილი <code>page.php</code> შიდა გვერდების (Pages) უნიკალური სტრუქტურისთვის.</li>
+        </ol>
+        <h3>📁 ჩასაბარებელი მტკიცებულებები:</h3>
+        <p>თქვენ მიერ შექმნილი ვორდპრესის თემის დაზიპული საქაღალდე (Theme Folder) და ბაზა (sql file).</p>
+        <a
+          href="https://drive.google.com/drive/folders/1A-CP4YTndeYmdvPSOI692Osy92Jol0rM?usp=drive_link"
+          target="_blank"
+          >🔗 გამოცდის ჩასაბარებელი ლინკი (Google Drive)</a
+        >`,
       },
       { time: null, text: "თარიღი მალე დაემატება", date: null, duration: null },
       { time: null, text: "თარიღი მალე დაემატება", date: null, duration: null },
