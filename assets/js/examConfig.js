@@ -159,7 +159,7 @@ export const moduleConfigs = {
         <h3>📁 ჩასაბარებელი მტკიცებულებები:</h3>
         <p>თქვენ მიერ შექმნილი ვორდპრესის თემის დაზიპული საქაღალდე (Theme Folder) და ბაზა (sql file).</p>
         <a
-          href="https://drive.google.com/drive/folders/1A-CP4YTndeYmdvPSOI692Osy92Jol0rM?usp=drive_link"
+          href="https://drive.google.com/drive/folders/1rnYZeKSX87lwVmRP6dP1GylVSj651HqZ?usp=drive_link"
           target="_blank"
           >🔗 გამოცდის ჩასაბარებელი ლინკი (Google Drive)</a
         >`,
