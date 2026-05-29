@@ -198,6 +198,6 @@ export function initializeTable() {
     const isHidden = allRows[0].classList.contains("table-row-hidden");
     headerCell.textContent = isHidden
       ? "📅 ცხრილი (დააჭირეთ გასახსნელად)"
-      : "📅 ცხრილი (დააჭირეთ დასახურავად)";
+      : "📅 ცხრილი (დააჭირეთ დასახურად)";
   });
 }
