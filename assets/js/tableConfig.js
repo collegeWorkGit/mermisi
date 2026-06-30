@@ -11,7 +11,7 @@ export const modules = {
 
 // Schedule
 export const schedule = [
-  { day: "ოთხშაბათი", periods: [2, 3, 4, 5], moduleId: "cms" },
+  { day: "ოთხშაბათი", periods: [1, 2, 3, 4, 5], moduleId: "cms" },
   { day: "პარასკევი", periods: [1, 2], moduleId: "cms" },
 ];
 
