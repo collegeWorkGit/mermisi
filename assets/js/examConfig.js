@@ -175,10 +175,6 @@ export const moduleConfigs = {
           <li>გადმოწერეთ გამოგზავნილი template.rar არქივი <a href="https://drive.google.com/file/d/1ye_cCNF0x6q5lYJ_znsfo2YCk5IEGd2O/view?usp=sharing" target="_blank">ლინკიდან</a> და გახსენით.</li>
           <li>მართვის პანელიდან (Plugins -> Add New) მოიძიეთ და დააინსტალირეთ <strong>Contact Form 7</strong> პლაგინი.</li>
           <li>შექმენით საკონტაქტო ფორმა, დააკონფიგურირეთ ველები და shortcode-ის გამოყენებით გამოიტანეთ საკონტაქტო გვერდზე. ისე როგორც გამოგზავნილშია</li>
-          <li>თემის შაბლონურ ფაილში (მაგ. <code>index.php</code> ან <code>front-page.php</code>) გამოიყენეთ <strong>WP_Query</strong> კლასი.</li>
-          <li>WP_Query-ს არგუმენტებში მიუთითეთ კონკრეტული კატეგორია (მაგ. <code>category_name</code>) და გამოსატანი პოსტების რაოდენობა.</li>
-          <li>ციკლის (while loop) გამოყენებით გამოიტანეთ შერჩეული კატეგორიის პოსტების სათაურები (<code>the_title()</code>) და შიგთავსი (<code>the_content()</code>).</li>
-          <li>ციკლის დასრულების შემდეგ გამოიყენეთ <code>wp_reset_postdata()</code>, რათა აღადგინოთ გლობალური <code>$post</code> ობიექტი.</li>
         </ol>
         <h3>📁 ჩასაბარებელი მტკიცებულებები:</h3>
         <p>თქვენ მიერ შექმნილი ვორდპრესის თემის დაზიპული საქაღალდე (Theme Folder) და ბაზა (sql file).</p>
