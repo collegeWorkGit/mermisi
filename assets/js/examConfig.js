@@ -165,15 +165,16 @@ export const moduleConfigs = {
         >`,
       },
       {
-        time: new Date(2026, 6, 7).getTime(),
+        time: new Date(2026, 6, 8).getTime(),
         text: "ს.შ 3. არსებული ვებგვერდის სტრუქტურის ან შემცველობის შეცვლა მოთხოვნის შესაბამისად",
         date: "08.07.2026",
         duration: "2 სთ",
         content: `
         <h3>📝 დავალების არსი:</h3>
         <ol>
+          <li>გადმოწერეთ გამოგზავნილი template.rar არქივი <a href="https://drive.google.com/file/d/1ye_cCNF0x6q5lYJ_znsfo2YCk5IEGd2O/view?usp=sharing" target="_blank">ლინკიდან</a> და გახსენით.</li>
           <li>მართვის პანელიდან (Plugins -> Add New) მოიძიეთ და დააინსტალირეთ <strong>Contact Form 7</strong> პლაგინი.</li>
-          <li>შექმენით საკონტაქტო ფორმა, დააკონფიგურირეთ ველები და shortcode-ის გამოყენებით გამოიტანეთ საკონტაქტო გვერდზე.</li>
+          <li>შექმენით საკონტაქტო ფორმა, დააკონფიგურირეთ ველები და shortcode-ის გამოყენებით გამოიტანეთ საკონტაქტო გვერდზე. ისე როგორც გამოგზავნილშია</li>
           <li>თემის შაბლონურ ფაილში (მაგ. <code>index.php</code> ან <code>front-page.php</code>) გამოიყენეთ <strong>WP_Query</strong> კლასი.</li>
           <li>WP_Query-ს არგუმენტებში მიუთითეთ კონკრეტული კატეგორია (მაგ. <code>category_name</code>) და გამოსატანი პოსტების რაოდენობა.</li>
           <li>ციკლის (while loop) გამოყენებით გამოიტანეთ შერჩეული კატეგორიის პოსტების სათაურები (<code>the_title()</code>) და შიგთავსი (<code>the_content()</code>).</li>
