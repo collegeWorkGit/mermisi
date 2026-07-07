@@ -164,7 +164,30 @@ export const moduleConfigs = {
           >🔗 გამოცდის ჩასაბარებელი ლინკი (Google Drive)</a
         >`,
       },
-      { time: null, text: "თარიღი მალე დაემატება", date: null, duration: null },
+      {
+        time: new Date(2026, 6, 7).getTime(),
+        text: "ს.შ 3. არსებული ვებგვერდის სტრუქტურის ან შემცველობის შეცვლა მოთხოვნის შესაბამისად",
+        date: "08.07.2026",
+        duration: "2 სთ",
+        content: `
+        <h3>📝 დავალების არსი:</h3>
+        <ol>
+          <li>მართვის პანელიდან (Plugins -> Add New) მოიძიეთ და დააინსტალირეთ <strong>Contact Form 7</strong> პლაგინი.</li>
+          <li>შექმენით საკონტაქტო ფორმა, დააკონფიგურირეთ ველები და shortcode-ის გამოყენებით გამოიტანეთ საკონტაქტო გვერდზე.</li>
+          <li>თემის შაბლონურ ფაილში (მაგ. <code>index.php</code> ან <code>front-page.php</code>) გამოიყენეთ <strong>WP_Query</strong> კლასი.</li>
+          <li>WP_Query-ს არგუმენტებში მიუთითეთ კონკრეტული კატეგორია (მაგ. <code>category_name</code>) და გამოსატანი პოსტების რაოდენობა.</li>
+          <li>ციკლის (while loop) გამოყენებით გამოიტანეთ შერჩეული კატეგორიის პოსტების სათაურები (<code>the_title()</code>) და შიგთავსი (<code>the_content()</code>).</li>
+          <li>ციკლის დასრულების შემდეგ გამოიყენეთ <code>wp_reset_postdata()</code>, რათა აღადგინოთ გლობალური <code>$post</code> ობიექტი.</li>
+        </ol>
+        <h3>📁 ჩასაბარებელი მტკიცებულებები:</h3>
+        <p>თქვენ მიერ შექმნილი ვორდპრესის თემის დაზიპული საქაღალდე (Theme Folder) და ბაზა (sql file).</p>
+        <a
+          href="https://drive.google.com/drive/folders/1xyC4oforrVhBEXm5ESs1zl4X1iJPdhgz?usp=drive_link"
+          target="_blank"
+          >🔗 გამოცდის ჩასაბარებელი ლინკი (Google Drive)</a
+        >
+        `,
+      },
       { time: null, text: "თარიღი მალე დაემატება", date: null, duration: null },
     ],
   },
