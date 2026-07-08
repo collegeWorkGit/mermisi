@@ -172,7 +172,7 @@ export const moduleConfigs = {
         content: `
         <h3>📝 დავალების არსი:</h3>
         <ol>
-          <li>გადმოწერეთ გამოგზავნილი template.rar არქივი <a href="https://drive.google.com/file/d/1ye_cCNF0x6q5lYJ_znsfo2YCk5IEGd2O/view?usp=sharing" target="_blank">ლინკიდან</a> და გახსენით.</li>
+          <li>გადმოწერეთ საგამოცდო არქივი <a href="https://drive.google.com/file/d/1ye_cCNF0x6q5lYJ_znsfo2YCk5IEGd2O/view?usp=sharing" target="_blank">ლინკიდან</a> და გახსენით.</li>
           <li>მართვის პანელიდან (Plugins -> Add New) მოიძიეთ და დააინსტალირეთ <strong>Contact Form 7</strong> პლაგინი.</li>
           <li>შექმენით საკონტაქტო ფორმა, დააკონფიგურირეთ ველები და shortcode-ის გამოყენებით გამოიტანეთ საკონტაქტო გვერდზე. ისე როგორც გამოგზავნილშია</li>
         </ol>
