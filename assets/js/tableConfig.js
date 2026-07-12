@@ -12,7 +12,7 @@ export const modules = {
 // Schedule
 export const schedule = [
   { day: "ოთხშაბათი", periods: [1, 2, 3, 4, 5], moduleId: "cms" },
-  { day: "პარასკევი", periods: [1, 2], moduleId: "cms" },
+  { day: "პარასკევი", periods: [1, 2, 3, 4, 5, 6, 7], moduleId: "cms" },
 ];
 
 // Time slots
