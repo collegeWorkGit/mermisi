@@ -185,7 +185,29 @@ export const moduleConfigs = {
         >
         `,
       },
-      { time: null, text: "თარიღი მალე დაემატება", date: null, duration: null },
+      {
+        time: new Date(2026, 6, 31).getTime(),
+        text: "ს.შ 4. არსებული ვებგვერდის სტრუქტურის ან შემცველობის შეცვლა მოთხოვნის შესაბამისად[cite: 1]",
+        date: "30.07.2026",
+        duration: "1 სთ",
+        content: `
+        <h3>📝 დავალების არსი:</h3>
+        <ol>
+          <li>გადმოწერეთ საგამოცდო არქივი <a href="https://drive.google.com/file/d/1ye_cCNF0x6q5lYJ_znsfo2YCk5IEGd2O/view?usp=sharing" target="_blank">ლინკიდან</a> და გახსენით.</     li>
+          <li>თემის მთავარ დირექტორიაში შექმენით <strong>searchform.php</strong> ფაილი და       განათავსეთ მასში ძიების ველის (Search Form) HTML/PHP სტრუქტურა.</li>
+          <li>შექმენით <strong>search.php</strong> ფაილი ძიების შედეგების გვერდისთვის. გამოიყენეთ       WordPress-ის სტანდარტული ციკლი (Loop) ნაპოვნი ჩანაწერების გამოსატანად.</li>
+          <li>ვებგვერდის სასურველ ადგილას (მაგ. ჰედერში ან საიდბარში) გამოიძახეთ ფორმა      <code>get_search_form()</code> ფუნქციის გამოყენებით.</li>
+          <li>შეამოწმეთ ფუნქციონალი: შეიყვანეთ საძიებო სიტყვა და დარწმუნდით, რომ შედეგები სწორად      აისახება <code>search.php</code> გვერდზე.</li>
+        </ol>
+        <h3>📁 ჩასაბარებელი მტკიცებულებები:</h3>
+        <p>თქვენ მიერ შექმნილი ვორდპრესის თემის დაზიპული საქაღალდე (Theme Folder), რომელშიც ინტეგრირებულია საძიებო ფაილები, და მონაცემთა ბაზა (sql file).</p>
+        <a
+          href="https://drive.google.com/drive/folders/1whnrBhmzjqNn7CWIhQcxoQQEB4zUdtDe?usp=sharing"
+          target="_blank"
+          >🔗 გამოცდის ჩასაბარებელი ლინკი (Google Drive)</a
+        >
+      `,
+      },
     ],
   },
 };
